@@ -1,0 +1,23 @@
+{
+  "name": "horoscope-web-server",
+  "version": "1.0.0",
+  "description": "npm init -y npm i axios npm i chalk@4.0.0 npm i yargs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js -e js,hbs",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "chalk": "^4.0.0",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "path-parse": "^1.0.7",
+    "yargs": "^17.3.1"
+  }
+}
